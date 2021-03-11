@@ -63,16 +63,19 @@ html, body {
   background: url(images/Pink_bg.jpg)
       center center fixed no-repeat;
     background-size: cover;
+
+ 
 	
 	
 }
-
+/*----changed shape from rectangle to rounded----*/
 .center {
     width: 800px;
-	padding: 2%;
+	padding: 5%;
     margin: 100px auto;
- 	background: rgba(256, 256, 256, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(256, 256, 256, 1); /*this uses opacity of 75% for the background color*/
 	text-align: center;
+    border-radius: 20%
 	
 }
 
@@ -84,14 +87,14 @@ html, body {
 }
 
 h1 {
-    font-family: fleisch-wolf, sans-serif;
+    font-family: "helvetica", sans-serif;
 	font-size: 2em;
     margin: 0px auto 10px auto;
     color: #fff;
 }
 
 h2 {
-    font-family: fleisch-wolf, sans-serif;
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
     font-style: normal;
 	font-size: 1.5em;
@@ -100,10 +103,12 @@ h2 {
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 }
-
+/*----changed font----*/
 p {
-    font-family: garamond, serif;
-	font-size: 1.2em;
+    font-family: korolev, sans-serif;
+font-weight: 300;
+font-style: normal; 
+    font-size: 1.5em;
     line-height: 1.6;
     letter-spacing: 3px;
     color: black;
@@ -138,3 +143,4 @@ a:hover{
     color: black;
     background:pink;
     }
+
